@@ -1,0 +1,7 @@
+include ':app'
+
+include ':lib_permissions_requestor'
+
+rootProject.name='PermissionsRequestor'
+
+
