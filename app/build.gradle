@@ -25,8 +25,10 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-//    implementation project(":lib_permissions_requestor")
-    implementation "com.tencent.permissionsrequestor:lib_permissions_requestor:1.0.0"
+    implementation project(":permissionsrequestor")
+
+//    implementation 'com.github.xiaofanqingzjj:PermissionsRequestor:1.0'
+//    implementation "com.tencent.permissionsrequestor:permissionsrequestor:1.0.0"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "com.android.support:appcompat-v7:$support_version"

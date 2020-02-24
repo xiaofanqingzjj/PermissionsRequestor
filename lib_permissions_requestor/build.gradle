@@ -31,9 +31,6 @@ dependencies {
 
 // 发布组件相关
 apply plugin: 'com.github.dcendents.android-maven'
-
-
-
 group='com.tencent.permissionsrequestor'
 version='1.0.0'
 
