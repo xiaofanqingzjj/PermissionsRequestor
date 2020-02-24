@@ -2,13 +2,13 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
-
 android {
     compileSdkVersion compile_sdk_version
 
-
-
     defaultConfig {
+
+        versionCode=1
+        versionName="1.0.0"
     }
 
     buildTypes {
@@ -25,3 +25,42 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "com.android.support:appcompat-v7:$support_version"
 }
+
+
+
+
+// 发布组件相关
+apply plugin: 'com.github.dcendents.android-maven'
+
+
+
+group='com.tencent.permissionsrequestor'
+version='1.0.0'
+
+//artifactId="permissionsrequestor"
+
+//
+//
+//apply plugin: 'maven' // 引入maven插件
+//
+//apply {
+//    it.from("mavenInfo.gradle")
+//}
+//
+//uploadArchives {
+//    repositories.mavenDeployer {
+//
+//        repository(url: repositories.mavenLocal().getUrl())
+//
+//        //构造项目的Pom文件
+////            pom.groupId = projectGroup
+////            pom.artifactId = artifactId
+////            pom.version = versionName
+//
+//        pom.project {
+//            groupId = projectGroup
+//            artifactId = artifactId
+//            version = versionName
+//        }
+//    }
+//}

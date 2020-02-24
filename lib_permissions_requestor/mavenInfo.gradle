@@ -1,0 +1,6 @@
+
+ext {
+    projectGroup="com.tencent.permissionsrequestor"
+    artifactId="permissionsrequestor"
+    versionName="1.0.0"
+}

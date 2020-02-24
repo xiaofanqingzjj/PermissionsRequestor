@@ -1,6 +1,7 @@
 include ':app'
 
-include ':lib_permissions_requestor'
+include ':permissionsrequestor'
+project(':permissionsrequestor').projectDir = file('lib_permissions_requestor')
 
 rootProject.name='PermissionsRequestor'
 
