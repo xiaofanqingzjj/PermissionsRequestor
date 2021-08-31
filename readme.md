@@ -11,6 +11,16 @@
 
 # Usage
 
+在你的项目里添加依赖：
+
+```groovy
+dependencies {
+    api "com.github.xiaofanqingzjj:PermissionsRequestor:1.0.0"
+}
+```
+
+请求权限
+
 ```kotlin
 
 
